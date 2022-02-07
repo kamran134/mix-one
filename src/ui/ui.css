@@ -1,0 +1,23 @@
+.mix-button {
+    border-radius: 19px;
+    box-shadow: 0px 4px 23px rgba(212, 181, 148, 0.4);
+    outline: none;
+    border: none;
+    padding: 14px 0;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+
+.m-button {
+    min-width: 220px;
+    height: 58px;
+    background-color: #EBC097;
+}
+
+.m-dropdown {
+    min-width: 133px;
+    height: 58px;
+    background-color: #CACEE2;
+}

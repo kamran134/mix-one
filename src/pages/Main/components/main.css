@@ -1,0 +1,72 @@
+.cover {
+    margin-top: 40px;
+}
+
+.subview {
+    margin-top: 266px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.subview__left {
+    margin-right: 20px;
+}
+
+.subview__right {
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 570px;
+}
+
+.subview__right img {
+    margin-bottom: 37px;
+}
+
+.subview__right img:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
+.brand {
+    width: 164.52px;
+    height: 210.97px;
+}
+
+.mobile-app {
+    margin: 284px 0;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.mobile-app svg {
+    height: 720px;
+}
+
+.mobile-app svg:first-child {
+    margin-right: 50px;
+}
+
+.mobile-app svg:last-child {
+    margin-right: 90px;
+}
+
+.mobile-app__container {
+    width: 100%;
+    height: 330px;
+    background-color: #4B4F63;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: -1;
+    display: flex;
+    align-items: center;
+}
+
+.mobile-app__container h2 {
+    max-width: 550px;
+    margin-left: 100px;
+}

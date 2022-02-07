@@ -1,0 +1,23 @@
+.m-header {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    height: 109px;
+    align-items: center;
+}
+
+.m-header__logo {
+    
+}
+
+.m-header__logo img {
+    width: 210px;
+}
+
+.m-header__buttons button {
+    margin-right: 37px;
+}
+
+.m-header__buttons button:last-child {
+    margin-right: 0;
+}
